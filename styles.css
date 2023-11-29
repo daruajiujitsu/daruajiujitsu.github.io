@@ -1,0 +1,474 @@
+*{ /*CAJA UNIVERSAL*/
+    margin:0px auto;
+    padding: 0px auto;
+    text-decoration: none;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    
+
+}
+
+body{
+   background-color:lemonchiffon;
+   
+   
+}
+
+  
+   
+
+#general{
+    /*CAJADEL<divid="general">*/width:90%;
+    margin: 0px;
+    padding: 0px;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 10px;
+    background-color: lemonchiffon;
+    text-align: center;
+    box-shadow: 0px 0px 3px black;
+    border-radius:50px ;
+    -webkit-border-radius:50px ;
+    -moz-border-radius:50px ;
+    -ms-border-radius:50px ;
+    -o-border-radius:50px ;
+    border: 2px groove black;
+   
+}
+
+    /*######  ENCABEZADO #####*/
+
+#encabezado{ /*CAJA ENCABEZADO*/
+    
+    width:0%;
+    margin-right: 10px;
+    margin-right: 0px;
+   float: left;  
+    height:100px ;
+  
+}
+  
+
+  /*.imagen{
+    display: block;
+    text-align:left;
+    float: left;
+    box-shadow:0px 0px 10px red;
+
+}*/   
+
+
+h1{
+ position: absolute;
+ /*MUEVOLACAJALIBREMENTESINMODIFICARELRESTO*/display: block;
+ float: unset;
+ margin-left:120px;
+ margin-top:0px;
+ margin-right: 100px;
+ color: rgb(185, 169, 169);
+ font-size:xx-large;
+ text-shadow: 0px 8px 0px rgb(51, 16, 16);
+ transition: 500ms;
+ -webkit-transition: 500ms;
+ -moz-transition: 500ms;
+ -ms-transition: 500ms;
+ -o-transition: 500ms;
+ text-align: center;
+ font-size: 120px;
+ margin-bottom: 50px;
+ /*animation-duration: 15s;
+ animation-timing-function: linear;
+ animation-iteration-count: infinite;
+ animation-name: desplazamiento;*/
+
+}
+
+/*@keyframes desplazamiento{
+    from{
+
+    }
+    to{
+
+    }
+}*/
+
+h1:hover{
+    text-shadow: 0px 15px 0px black;
+}
+
+
+
+
+    /*#### MENU #### */
+
+#menu{
+  
+    display: block;
+    width:100%;
+   
+}
+
+#menu > ul > li{
+  background-color:lemonchiffon!important;  
+    
+}
+
+
+
+
+#menu > ul > li > ul{
+    display:none; /*PARA OCULTAR EL BLOQUE*/
+    position: absolute;/*QUE SE PONGA EN CUALQUIER POSICION SIN INTERFERIR EN LAS DEMAS*/
+    z-index: 1;/*PARA POSICIONARSE POR ENCIMA DE CUALQUIER CAJA*/
+    box-shadow: 0px 0px 5px black;
+  
+
+}
+
+#menu > ul > li > ul > li{
+    display: block;/*LA LISTA LA COMBIERTE EN UN BLOQUE,Y LE QUITA EL PUNTO DE DELANTE DE LA LISTA*/
+    color:rgb(17, 16, 16);
+}
+
+#menu > ul > li:hover > ul{
+    display: block;
+    color:black;
+    text-decoration: none;
+
+
+}
+
+  
+#menu > ul > li{
+    float:left;
+    display:block;
+    padding:0px;
+    margin-right:60px;
+    margin-left:70px;
+    margin-top:160px;
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+    background-color: rgb(185, 169, 169);
+} 
+
+
+#menu > ul > li:first-child :hover{ /*ESTILO AL PRIMER HIJO DE LA LISTA CUANDO PASO POR ENCIMA CON EL RATON*/
+    box-shadow: 5px 5px 100px rgb(161, 12, 37);
+}
+
+#menu > ul > li:nth-child(2) :hover{/*ESTILO AL SEGUNDO HIJO DE LA LISTA CUANDO PASO POR ENCIMA CON EL RATON*/
+    box-shadow: 5px 5px 100px blue;
+}
+
+
+#menu > ul > li:nth-child(3) :hover{
+    box-shadow: 5px 5px 100px red;
+}
+
+
+
+#menu > ul > li:nth-child(4) :hover{
+    box-shadow: 5px 5px 100px black;
+}
+
+
+
+#menu > ul > li:nth-child(5) :hover{
+    box-shadow: 5px 5px 100px green;
+}
+
+
+#menu > ul > li:nth-child(6) :hover{
+    box-shadow: 5px 5px 100px rgb(82, 80, 80);
+}
+
+menu > ul > li:last-child :hover{ /*ESTILO AL ULTIMO HIJO DE LA LISTA CUANDO PASO POR ENCIMA CON EL RATON*/
+    box-shadow: 5px 5px 100px rgb(67, 66, 66);
+}
+
+
+   
+
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+
+ /*##### SECCION PRINCIPAL #####*/
+
+#principal{
+   
+    width:86%;
+    float: left;
+   background-color:lemonchiffon;
+    min-height: 635px;
+    color: black;
+   margin-top: 28px !important;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9{
+  display: block;
+  float: left;
+  box-shadow: 0px 0px 5px rgb(224, 222, 222);
+  padding: 5px;
+  width:360px;
+  height: 260px;
+  margin-top:30px ;
+  margin-bottom: 20px;
+  
+  margin-left:15px !important;
+  color:white;
+  background: black;
+  /*background-image: url(imagenes/fondo\ css\ negro.jpeg);
+  */margin: 2px;
+  border-radius:20px ;
+  -webkit-border-radius:20px ;
+  -moz-border-radius:20px ;
+  -ms-border-radius:20px ;
+  -o-border-radius:20px ;
+}
+
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9{
+    margin-bottom: 20px !important;
+}
+
+
+.caja1, .caja4, .caja7{
+    margin-left: 20px !important;
+}
+
+img{
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+    
+    margin-top: 30px;
+}
+h3{
+    background:black;
+    position: absolute;
+    margin-left: 110px;
+    margin-top: 3px;
+    font-size: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+    padding:2px ;
+}
+
+
+.caja1:hover h3{
+    border:2px solid white;
+    color:rgb(181, 164, 164) ;
+}
+    
+.caja2:hover h3{
+    color:blue;
+    border: 2px solid blue;
+}
+.caja3:hover h3{
+    color:purple;
+    border: 2px solid purple;
+}
+
+.caja1:hover{
+    box-shadow: 0px 0px 100px rgb(77, 76, 76) ;
+    
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+.caja2:hover{
+    box-shadow: 0px 0px 100px blue;
+    
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+
+
+.caja3:hover{
+    box-shadow: 5px 5px 100px blueviolet;
+    
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+
+.caja4:hover{
+  box-shadow: 0px 0px 30px white;
+}
+.caja5:hover{
+    box-shadow: 0px 0px 30px white;  
+}
+.caja6:hover{
+    box-shadow: 0px 0px 30px white;   
+}
+
+    
+
+
+
+        
+/*##### BARRA LATERAL  #######*/  
+
+
+
+#lateral{
+ /*background-image: url(imagenes/fondo\ css\ negro.jpeg);
+ */width:12%;
+ margin-top: 30px;
+ margin-right: 2px;
+ height:855px;
+ margin-left:1180px;
+ /*border: 3px groove black ;
+ */background-color:black;
+ border-radius:30px ;
+ -webkit-border-radius:30px ;
+ -moz-border-radius:30px ;
+ -ms-border-radius:30px ;
+ -o-border-radius:30px ;
+ position: absolute;
+ z-index:1;
+}
+
+h2{
+    color:rgb(187, 180, 180); 
+    border-bottom: 3px groove black;
+}
+    
+.widget{   
+    margin-top: 2px;
+    display: block;
+    color: black;
+    float: none;
+    margin-left: 0px auto;
+    text-align: center;
+   
+    
+    
+}  
+
+
+#lateral2, #lateral1{   
+    float: right;
+    border-bottom: 3px groove black;
+} 
+
+
+
+
+label{
+    text-align: center;
+}
+
+
+
+input[type="submit"]{
+    margin: 10px;
+}
+
+input[type="text"]{
+    margin:3px auto;
+}
+
+
+input[type="email"]{
+    margin:3px auto;
+    margin-right: 11px;
+    margin-left: 15px;
+}
+
+
+input[type="password"]{
+    margin:3px auto;
+}
+
+
+
+input[type="text"]:hover{
+    border: 2px solid black ;
+}
+
+
+input[type="email"]:hover{
+    border: 2px solid black ;
+}
+
+
+input[type="password"]:hover{
+    border: 2px solid black ;
+}
+
+
+input[type="text"]:focus{
+    border:groove black;
+    background-color: black;
+    color:lemonchiffon;
+
+}
+
+input[type="email"]:focus{
+    border:groove black;
+    background-color: black;
+    color:lemonchiffon;
+
+}
+
+ 
+input[type="password"]:focus{
+    border:groove black;
+    background-color: black;
+    color:lemonchiffon;
+
+}
+  
+    
+   
+
+   
+/* ##### PIE DE PAGINA #######*/
+
+footer{
+    text-align: center;
+    
+    padding:5px;
+    margin-top: 5px;
+    color:lemonchiffon;
+    background-color:black;
+    height:90px;
+    border-radius:40px ;
+    -webkit-border-radius:40px ;
+    -moz-border-radius:40px ;
+    -ms-border-radius:40px ;
+    -o-border-radius:40px ;
+    margin-bottom: 20px;
+}
+
+.imagen{
+   float: left;
+   margin-top: 0px;
+}
+
+
+
