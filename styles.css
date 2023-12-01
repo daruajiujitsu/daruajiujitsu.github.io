@@ -420,7 +420,7 @@ h2{
     margin-right:50px;
     text-align: center;
     width: 99%;
-    border: 2px solid white;
+   
    
     
     
@@ -595,7 +595,8 @@ footer{
         margin-top:1px;
         width:90%;
         float: none;
-        max-height: 60px;
+        max-height:30px;
+        
         position: absolute;
         z-index: 2;
     }
