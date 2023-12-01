@@ -596,10 +596,11 @@ footer{
         width:90%;
         float: none;
         max-height:30px;
-        
         position: absolute;
         z-index: 2;
     }
+   
+    
    
 
    
