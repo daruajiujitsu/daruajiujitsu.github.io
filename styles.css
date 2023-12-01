@@ -127,7 +127,7 @@ h1:hover{
 
 #menu > ul > li{
     
-  background:lemonchiffon!important;
+  background:white!important;
 }
 
 
@@ -222,7 +222,7 @@ menu > ul > li:last-child :hover{ /*ESTILO AL ULTIMO HIJO DE LA LISTA CUANDO PAS
    
     width:75%;
     float: left;
-   background-color:lemonchiffon;
+   background-color:white;
     min-height: 635px;
     color: black;
    margin-top: 28px !important;
@@ -243,7 +243,7 @@ menu > ul > li:last-child :hover{ /*ESTILO AL ULTIMO HIJO DE LA LISTA CUANDO PAS
   
   margin-left:15px !important;
   color:white;
-  background:lemonchiffon;
+  background:white;
   /*background-image: url(imagenes/fondo\ css\ negro.jpeg);
   */margin: 2px;
   border-radius:20px ;
@@ -440,7 +440,7 @@ label{
     color:rgb(243, 7, 7);
 }
 label:hover{
-    color:lemonchiffon;
+    color:white;
     transform: 300ms;
     -webkit-transform: 300ms;
     -moz-transform: 300ms;
@@ -522,14 +522,14 @@ input[type="password"]:hover{
 input[type="text"]:focus{
     border:groove black;
     background-color: black;
-    color:lemonchiffon;
+    color:white;
 
 }
 
 input[type="email"]:focus{
     border:groove black;
     background-color: black;
-    color:lemonchiffon;
+    color:white;
 
 }
 
@@ -537,7 +537,7 @@ input[type="email"]:focus{
 input[type="password"]:focus{
     border:groove black;
     background-color: black;
-    color:lemonchiffon;
+    color:white;
 
 }
   
@@ -552,7 +552,7 @@ footer{
     width: 100%;
     padding:5px;
     margin-top: 5px;
-    color:lemonchiffon;
+    color:white;
     background-color:black;
     height:90px;
     border-radius:20px ;
