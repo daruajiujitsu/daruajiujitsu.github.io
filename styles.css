@@ -8,16 +8,22 @@
 }
 
 body{
+    width: 99%;
    background-color:lemonchiffon;
-   
-   
+   border: 5px solid black;
+   border-radius: 30px;
+   -webkit-border-radius: 30px;
+   -moz-border-radius: 30px;
+   -ms-border-radius: 30px;
+   -o-border-radius: 30px;
+   box-shadow: 5px 10px 1px gray;
 }
 
   
    
 
 #general{
-    /*CAJADEL<divid="general">*/width:90%;
+    width:90%;
     margin: 0px;
     padding: 0px;
     margin-top: 20px;
@@ -25,13 +31,14 @@ body{
     margin-right: 10px;
     background-color: lemonchiffon;
     text-align: center;
-    box-shadow: 0px 0px 3px black;
-    border-radius:50px ;
+    /*box-shadow: 0px 0px 3px black;*/
+   /* border-radius:50px ;
     -webkit-border-radius:50px ;
     -moz-border-radius:50px ;
     -ms-border-radius:50px ;
     -o-border-radius:50px ;
-    border: 2px groove black;
+    border: 2px solid black;*/
+    
    
 }
 
@@ -44,6 +51,8 @@ body{
     margin-right: 0px;
    float: left;  
     height:100px ;
+   
+    
   
 }
   
@@ -58,15 +67,17 @@ body{
 
 
 h1{
+  box-shadow: 0px 10px 0px rgb(243, 6, 6);  
+ background-color:black;
  position: absolute;
- /*MUEVOLACAJALIBREMENTESINMODIFICARELRESTO*/display: block;
+ display: block;
  float: unset;
- margin-left:120px;
- margin-top:0px;
+ margin-left:140px;
+ margin-top:10px;
  margin-right: 100px;
- color: rgb(185, 169, 169);
+ color:white;
  font-size:xx-large;
- text-shadow: 0px 8px 0px rgb(51, 16, 16);
+ text-shadow: 0px 6px 0px #333;
  transition: 500ms;
  -webkit-transition: 500ms;
  -moz-transition: 500ms;
@@ -75,11 +86,16 @@ h1{
  text-align: center;
  font-size: 120px;
  margin-bottom: 50px;
+ border-radius:20px ;
  /*animation-duration: 15s;
  animation-timing-function: linear;
  animation-iteration-count: infinite;
- animation-name: desplazamiento;*/
-
+ animation-name: desplazamiento;
+ */:;
+ -webkit-border-radius:20px ;
+ -moz-border-radius:20px ;
+ -ms-border-radius:20px ;
+ -o-border-radius:20px ;
 }
 
 /*@keyframes desplazamiento{
@@ -92,7 +108,7 @@ h1{
 }*/
 
 h1:hover{
-    text-shadow: 0px 15px 0px black;
+    text-shadow: 0px 15px 0px rgb(193, 6, 6);
 }
 
 
@@ -101,15 +117,17 @@ h1:hover{
     /*#### MENU #### */
 
 #menu{
+    
   
     display: block;
-    width:100%;
-   
+    width:98%;
+    
+    border-bottom:5px solid black;
 }
 
 #menu > ul > li{
-  background-color:lemonchiffon!important;  
     
+  background:lemonchiffon!important;
 }
 
 
@@ -202,7 +220,7 @@ menu > ul > li:last-child :hover{ /*ESTILO AL ULTIMO HIJO DE LA LISTA CUANDO PAS
 
 #principal{
    
-    width:86%;
+    width:75%;
     float: left;
    background-color:lemonchiffon;
     min-height: 635px;
@@ -216,16 +234,16 @@ menu > ul > li:last-child :hover{ /*ESTILO AL ULTIMO HIJO DE LA LISTA CUANDO PAS
 .caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9{
   display: block;
   float: left;
-  box-shadow: 0px 0px 5px rgb(224, 222, 222);
+ 
   padding: 5px;
-  width:360px;
-  height: 260px;
+  width:480px;
+  height: 300px;
   margin-top:30px ;
   margin-bottom: 20px;
   
   margin-left:15px !important;
   color:white;
-  background: black;
+  background:lemonchiffon;
   /*background-image: url(imagenes/fondo\ css\ negro.jpeg);
   */margin: 2px;
   border-radius:20px ;
@@ -235,12 +253,12 @@ menu > ul > li:last-child :hover{ /*ESTILO AL ULTIMO HIJO DE LA LISTA CUANDO PAS
   -o-border-radius:20px ;
 }
 
-.caja1, .caja2, .caja3, .caja4, .caja5, .caja6, .caja7, .caja8, .caja9{
+.caja1, .caja2, .caja3, .caja4, .caja5, .caja6{
     margin-bottom: 20px !important;
 }
 
 
-.caja1, .caja4, .caja7{
+.caja1, .caja3, .caja5{
     margin-left: 20px !important;
 }
 
@@ -252,13 +270,41 @@ img{
     -o-border-radius: 20px;
     
     margin-top: 30px;
+    box-shadow: 0px 0px 10px black;
 }
+
+#img1:hover{
+    box-shadow:0px 0px 20px #333;
+
+}
+
+
+#img2:hover{
+    box-shadow:0px 0px 20px blue;
+
+}
+
+
+#img3:hover{
+    box-shadow:0px 0px 20px purple;
+
+}
+
+
+#img4:hover{
+    box-shadow:0px 0px 20px brown;
+
+}
+
+
+
 h3{
+  
     background:black;
     position: absolute;
-    margin-left: 110px;
+   margin-left: 200px;
     margin-top: 3px;
-    font-size: 15px;
+    font-size: 17px;
     border-radius: 10px;
     -webkit-border-radius: 10px;
     -moz-border-radius: 10px;
@@ -282,8 +328,17 @@ h3{
     border: 2px solid purple;
 }
 
+
+.caja4:hover h3{
+    color:brown;
+    border: 2px solid brown;
+}
+
+
+
+
 .caja1:hover{
-    box-shadow: 0px 0px 100px rgb(77, 76, 76) ;
+    /*box-shadow: 0px 0px 100px rgb(77, 76, 76) ;*/
     
     transition: 300ms;
     -webkit-transition: 300ms;
@@ -293,7 +348,7 @@ h3{
 }
 
 .caja2:hover{
-    box-shadow: 0px 0px 100px blue;
+   /* box-shadow: 0px 0px 100px blue;*/
     
     transition: 300ms;
     -webkit-transition: 300ms;
@@ -305,7 +360,7 @@ h3{
 
 
 .caja3:hover{
-    box-shadow: 5px 5px 100px blueviolet;
+    /*box-shadow: 5px 5px 100px blueviolet;*/
     
     transition: 300ms;
     -webkit-transition: 300ms;
@@ -316,13 +371,13 @@ h3{
 
 
 .caja4:hover{
-  box-shadow: 0px 0px 30px white;
+  
 }
 .caja5:hover{
-    box-shadow: 0px 0px 30px white;  
+    
 }
 .caja6:hover{
-    box-shadow: 0px 0px 30px white;   
+   
 }
 
     
@@ -336,24 +391,24 @@ h3{
 
 #lateral{
  /*background-image: url(imagenes/fondo\ css\ negro.jpeg);
- */width:12%;
+ */width:21%;
  margin-top: 30px;
- margin-right: 2px;
- height:855px;
- margin-left:1180px;
- /*border: 3px groove black ;
- */background-color:black;
+ margin-right:30px;
+ height:1000px;
+ /*margin-left:1180px;*/
+ /*border: 3px groove black ;*/
+ background-color:black;
  border-radius:30px ;
  -webkit-border-radius:30px ;
  -moz-border-radius:30px ;
  -ms-border-radius:30px ;
  -o-border-radius:30px ;
- position: absolute;
- z-index:1;
+ /*position:absolute;*/
+ /*z-index:1;*/
 }
 
 h2{
-    color:rgb(187, 180, 180); 
+    color:white; 
     border-bottom: 3px groove black;
 }
     
@@ -362,8 +417,10 @@ h2{
     display: block;
     color: black;
     float: none;
-    margin-left: 0px auto;
+    margin-right:50px;
     text-align: center;
+    width: 99%;
+    border: 2px solid white;
    
     
     
@@ -372,7 +429,7 @@ h2{
 
 #lateral2, #lateral1{   
     float: right;
-    border-bottom: 3px groove black;
+   border-bottom: 3px groove black;
 } 
 
 
@@ -380,16 +437,47 @@ h2{
 
 label{
     text-align: center;
+    color:rgb(243, 7, 7);
+}
+label:hover{
+    color:lemonchiffon;
+    transform: 300ms;
+    -webkit-transform: 300ms;
+    -moz-transform: 300ms;
+    -ms-transform: 300ms;
+    -o-transform: 300ms;
 }
 
 
 
 input[type="submit"]{
     margin: 10px;
+    border: 2px solid red;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
+
+
+input[type="submit"]:hover{
+    background: black;
+    color: white;
+    
+}
+
+
+
+
 
 input[type="text"]{
     margin:3px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 
@@ -397,11 +485,21 @@ input[type="email"]{
     margin:3px auto;
     margin-right: 11px;
     margin-left: 15px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 
 input[type="password"]{
     margin:3px auto;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
 }
 
 
@@ -451,18 +549,18 @@ input[type="password"]:focus{
 
 footer{
     text-align: center;
-    
+    width: 100%;
     padding:5px;
     margin-top: 5px;
     color:lemonchiffon;
     background-color:black;
     height:90px;
-    border-radius:40px ;
-    -webkit-border-radius:40px ;
-    -moz-border-radius:40px ;
-    -ms-border-radius:40px ;
-    -o-border-radius:40px ;
-    margin-bottom: 20px;
+    border-radius:20px ;
+    -webkit-border-radius:20px ;
+    -moz-border-radius:20px ;
+    -ms-border-radius:20px ;
+    -o-border-radius:20px ;
+    margin-bottom:0px;
 }
 
 .imagen{
@@ -472,3 +570,80 @@ footer{
 
 
 
+
+@media(max-width:1510px){
+    #principal{
+        width:90%;
+    }
+   
+    
+}
+
+
+@media(max-width:1258px){
+    #principal{
+        width:90%;
+    }
+   
+    
+}
+
+
+@media(max-width:1511px){
+    
+    #lateral{
+        margin-top:1px;
+        width:90%;
+        float: none;
+        max-height: 60px;
+        position: absolute;
+        z-index: 2;
+    }
+   
+
+   
+    
+}
+
+
+
+
+
+@media(max-width:1446px){
+    #menu{
+           width:100%;
+       }
+   
+   }
+
+   
+
+
+@media(max-width:1376px){
+    h1{
+           width:80%;
+           font-size: 80px;
+          margin-right: 100px;
+           margin-left: 10px;
+       }
+   
+   }
+   
+   @media(max-width:930px){
+    h1{
+           width:95%;
+           font-size: 40px;
+           margin-right: 100px;
+           margin-left: 10px;
+       }
+   
+   }
+   @media(max-width:588px){
+    h1{
+           width:95%;
+           font-size: 20px;
+           margin-right:100px;
+           margin-left: 5px;
+       }
+   
+   }
