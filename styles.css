@@ -10,7 +10,7 @@
 body{
     width: 99%;
    background-color:white;
-   border: 5px solid black;
+  
    border-radius: 30px;
    -webkit-border-radius: 30px;
    -moz-border-radius: 30px;
@@ -67,17 +67,17 @@ body{
 
 
 h1{
-  box-shadow: 0px 10px 0px rgb(243, 6, 6);  
- background-color:black;
+  
+ /*background-color:black;*/
  position: absolute;
  display: block;
  float: unset;
  margin-left:140px;
  margin-top:10px;
  margin-right: 100px;
- color:white;
+ color:black;
  font-size:xx-large;
- text-shadow: 0px 6px 0px #333;
+ text-shadow: 2px 7px 0px #423f3f;
  transition: 500ms;
  -webkit-transition: 500ms;
  -moz-transition: 500ms;
@@ -108,7 +108,7 @@ h1{
 }*/
 
 h1:hover{
-    text-shadow: 0px 15px 0px rgb(193, 6, 6);
+    text-shadow: 3px 7px 0px rgb(193, 6, 6);
 }
 
 
@@ -549,7 +549,7 @@ input[type="password"]:focus{
 
 footer{
     text-align: center;
-    width: 100%;
+    width:86%;
     padding:5px;
     margin-top: 5px;
     color:white;
@@ -630,22 +630,49 @@ footer{
        }
    
    }
+   @media(max-width:1303px){
+    #menu{
+        width: 98%;
+       
+    }
+   }
    
    @media(max-width:930px){
     h1{
            width:95%;
            font-size: 40px;
-           margin-right: 100px;
-           margin-left: 10px;
+           margin-right: 130px;
+           margin-left:5px;
        }
+    body{
+        width: 100%;
+    }
+
+    #menu{
+        width:98%;
+    }
    
    }
    @media(max-width:588px){
     h1{
            width:95%;
-           font-size: 20px;
-           margin-right:100px;
+           font-size: 30px;
+           margin-right:150px;
            margin-left: 5px;
        }
+
+   footer{
+        width: 100%;
+       }
    
+   }
+
+   @media(max-width:500px){
+    h1{
+        width:80%;
+        font-size: 20px;
+        margin-right:500px;
+        margin-left: 5px;
+    }
+
    }
