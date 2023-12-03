@@ -11,12 +11,6 @@ body{
     width: 99%;
    background-color:white;
   
-   border-radius: 30px;
-   -webkit-border-radius: 30px;
-   -moz-border-radius: 30px;
-   -ms-border-radius: 30px;
-   -o-border-radius: 30px;
-   box-shadow: 5px 10px 1px gray;
 }
 
   
@@ -669,8 +663,8 @@ footer{
 
    @media(max-width:500px){
     h1{
-        width:80%;
-        font-size: 20px;
+        width:95%;
+        font-size: 27px;
         margin-right:500px;
         margin-left: 5px;
     }
