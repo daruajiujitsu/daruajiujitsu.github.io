@@ -94,7 +94,18 @@ h1:hover{
    margin-top: 0px auto;
 }
 
-
+#menu ul{
+    border:3px solid  rgb(113, 113, 116);
+   
+}
+#menu ul:hover{
+    border: 3px groove blue;
+    transition: 200ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    -ms-transition: 200ms;
+    -o-transition: 200ms;
+}
 
 
 
@@ -116,20 +127,17 @@ h1:hover{
     display: block;
     color:black;
     text-decoration: none;
-
-
 }
 
   
 #menu > ul > li{
-    display: block;
+    display:block;
    float: left;
    margin-left: 60px;
    margin-right: 50px;
     padding:0px;
-
-  
    
+
     transition: 300ms;
     -webkit-transition: 300ms;
     -moz-transition: 300ms;
@@ -522,7 +530,7 @@ footer{
     text-align: center;
     width:86%;
     padding:5px;
-    margin-top: 5px;
+    margin-top: 15px;
     color:white;
     background-color:black;
     height:90px;
